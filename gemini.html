@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Opossum Search</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+      width: 292px;
+      height: 220px;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opossum_2.jpg/292px-Opossum_2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      width: 500px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="search-box">
+        <form action="https://www.google.com/search" method="GET">
+          <input type="text" name="q" placeholder="Search" required>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      Powered by opossum search
+    </div>
+  </footer>
+</body>
+</html>
