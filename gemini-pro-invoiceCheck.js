@@ -15,9 +15,12 @@ return {
 }    
 async function run() {
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-const prompt = "find out ending balance";
-//const imageParts = [fileToGenerativePart("pythagoras.jpg", "image/jpeg")];
-const imageParts = [fileToGenerativePart("images/pdf.jpg", "image/jpg")];
+const prompt = "use pricelist.json to check the mistake in invoice.jpg";
+const imageParts = [
+  //fileToGenerativePart("images/CompanyPrice.png", "image/png"),
+  fileToGenerativePart("datafile/pricelist.json", "text/json"),
+  fileToGenerativePart("images/invoice.jpg", "image/jpg"),
+  ];
 const result = await model.generateContent([prompt, ...imageParts]); const response = await result.response;
 const text = response.text();
 try {

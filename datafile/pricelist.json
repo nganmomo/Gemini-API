@@ -1,0 +1,84 @@
+{
+    "priceList": {
+        "categories": [
+            {
+                "categoryitem no.": "Beverages",
+                "items": [
+                    {
+                        "item no.": "Coffee",
+                        "price": 2.5,
+                        "description": "Freshly brewed coffee",
+                        "availability": "In Stock"
+                    },
+                    {
+                        "item no.": "Tea",
+                        "price": 2.0,
+                        "description": "Green tea with lemon",
+                        "availability": "Out of Stock"
+                    },
+                    {
+                        "item no.": "Smoothie",
+                        "price": 4.0,
+                        "description": "Mixed berry smoothie"
+                    }
+                ]
+            },
+            {
+                "categoryitem no.": "Snacks",
+                "items": [
+                    {
+                        "item no.": "Muffin",
+                        "price": 1.5,
+                        "description": "Blueberry muffin"
+                    },
+                    {
+                        "item no.": "Croissant",
+                        "price": 2.0,
+                        "description": "Buttery croissant",
+                        "availability": "In Stock"
+                    }
+                ]
+            },
+            {
+                "categoryitem no.": "Meals",
+                "items": [
+                    {
+                        "item no.": "Salad",
+                        "price": 5.5,
+                        "description": "Garden salad with vinaigrette"
+                    },
+                    {
+                        "item no.": "Sandwich",
+                        "price": 6.0,
+                        "description": "Grilled cheese sandwich"
+                    }
+                ]
+            },
+            {
+                "categoryitem no.": "clothes",
+                "items": [
+                    {
+                        "item no.": "A111",
+                        "price": 15.5,
+                        "description": "Women's Tail-M"
+                    },
+                    {
+                        "item no.": "B222",
+                        "price": 6.0,
+                        "description": "Men's Tail-M"
+                    },
+                    {
+                        "item no.": "C333",
+                        "price": 12.0,
+                        "description": "Childen's-S"
+                    },
+                    {
+                        "item no.": "D444",
+                        "price": 11.0,
+                        "description": "Men's-XL"
+                    }
+                ]
+            }
+        ]
+    }
+}

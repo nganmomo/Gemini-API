@@ -1,0 +1,9 @@
+The LM317 is a voltage regulator. It provides a stable output voltage that is determined by the values of the resistors R1 and R2. The formula to calculate the output voltage is:
+
+VOUT = 1.25V * (1 + R1/R2)
+
+In this circuit, R1 = 240 ohms and R2 = 5k ohms. Plugging these values into the formula, we get:
+
+VOUT = 1.25V * (1 + 240/5000) = 1.25V * 1.048 = 1.31V
+
+Therefore, the output voltage VOUT is **1.31V**.
